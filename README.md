@@ -15,3 +15,5 @@
 <br>
 
 ## 4. Study Log
+
+#### 2022.10.05 - 1)영화API, axios(+인스턴스), Netflix 구조
