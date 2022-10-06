@@ -4,7 +4,7 @@
 
 영화 정보를 가져오기 위해 The Movie DB API를 생성한다.([이곳에서](http://themoviedb.org)!)
 
-내 API 키: adb01f6c1b0929b51b4cb6942788b2fb
+내 API 키: (안전한 곳에 보관..)
 
 ### API 사용법
 
