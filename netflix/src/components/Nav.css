@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* starts off slowly, with the transition speed increasing until complete. */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav_log{
+  /* 원래 위치와 상관없이 위치를 지정할 수 있다. 하지만 상위 요소에 영향을 받지 않기 때문에 화면이 바뀌더라도 고정된 위치를 설정 할 수 있다. 브라우저 화면의 상대 위치를 기준으로 위치가 결정된다. */
+  position: fixed;
+  left: 40px;
+  width: 80px;
+  /* 요소의 가로나 세로크기에 가능한 딱 맞춰져 크기가 조정되고, 비율은 고정된 상태이다. 딱 맞추기 때문에 남는 공간이 발생할 수 있다 */
+  object-fit: contain;
+}
+.nav__avatar {
+  position: fixed;
+  /* position 속성과 함께 사용 */
+  right: 40px;
+  width: 30px;
+  object-fit: contain;
+
+}
