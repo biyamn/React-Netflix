@@ -26,7 +26,7 @@ function AxiosApi() {
             title.map(title => (
                 (title.id < 10) ? (
                     <div key={title.id}>
-                        <p>title : {title.title}</p>
+                        <p>{`title ${title.id} : ${title.title}`}</p>
                     </div>)
                 : null
             ))
