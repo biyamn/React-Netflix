@@ -29,11 +29,11 @@ const Banner = () => {
       ].id;
 
     // 특정 영화의 더 상세한 정보를 가져오기(비디오 정보도 포함)
-    const results= await axios.get(`movie/${movieId}`, {
+    // 이렇게 하면 movieDetail 안에
+    const {data: movieDetail} = await axios.get(`movie/${movieId}`, {
       params: {append_to_response: "videos"},
     });
-    
-    console.log('results', results);
+    console.log(movieDetail);
   };
 
   return (
