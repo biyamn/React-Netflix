@@ -20,3 +20,5 @@
 #### 2022.10.06 - 2)Nav 컴포넌트 생성하기, 템플릿 리터럴, `&&`
 #### 2022.10.11 - 3)axios 개념, 비동기, API
 #### 2022.10.12 - 4)Promise, 콜백함수, async&await, axios 실습
+#### 2022.10.13 - 5)JavaScript로 axios 실습
+#### 2022.10.13 - <a href='https://velog.io/@hamham/JS-axios%EB%A1%9C-%ED%99%94%EB%A9%B4%EC%97%90-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0The-Movie-Database-%ED%99%9C%EC%9A%A9'>JS - axios로 화면에 데이터 가져오기(The Movie Database 활용)</a>(블로그 포스팅)
