@@ -82,7 +82,7 @@
   border-radius: 0.2vw;
   padding: 0.4rem 1.8rem 0.4rem 1rem;
   margin-right: 1rem;
-}
+} 
 .banner__button:hover {
   color: #000;
   background-color: rgba(170, 170, 170, 0.9);
